@@ -21,7 +21,7 @@ import "components"
 
 ApplicationWindow {
     visible: true
-    title: "Hyperdeck"
+    title: "HyperDeck"
     visibility: Qt.WindowFullScreen
 
     Rectangle {
