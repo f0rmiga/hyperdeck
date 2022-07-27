@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--
+Copyright (C) 2022 Marlon Engel
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Lesser General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License along
+with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<!-- Generator: Adobe Illustrator 26.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 74.055 74.055" style="enable-background:new 0 0 74.055 74.055;" xml:space="preserve">
+<g id="end_x5F_active">
+	<path style="fill:#474748;" d="M64.055,74.055H10c-5.5,0-10-4.5-10-10V10C0,4.5,4.5,0,10,0h54.055c5.5,0,10,4.5,10,10v54.055
+		C74.055,69.555,69.555,74.055,64.055,74.055z"/>
+	<path style="fill:#E2BC23;" d="M58.785,68.785H15.27c-5.5,0-10-4.5-10-10V15.27c0-5.5,4.5-10,10-10h43.515c5.5,0,10,4.5,10,10
+		v43.515C68.785,64.285,64.285,68.785,58.785,68.785z"/>
+	<polygon style="fill:#535454;" points="42.822,37.028 20.747,20.955 20.747,53.1 	"/>
+	<rect x="43.304" y="20.955" style="fill:#535454;" width="9.741" height="32.146"/>
+</g>
+<g id="Layer_1">
+</g>
+</svg>

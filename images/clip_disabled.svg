@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--
+Copyright (C) 2022 Marlon Engel
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Lesser General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License along
+with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<!-- Generator: Adobe Illustrator 26.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 74.055 74.055" style="enable-background:new 0 0 74.055 74.055;" xml:space="preserve">
+<g id="clip_x5F_disabled">
+	<path style="fill:#474748;" d="M64.055,74.055H10c-5.5,0-10-4.5-10-10V10C0,4.5,4.5,0,10,0h54.055c5.5,0,10,4.5,10,10v54.055
+		C74.055,69.555,69.555,74.055,64.055,74.055z"/>
+	<path style="fill:#272828;" d="M58.785,68.785H15.27c-5.5,0-10-4.5-10-10V15.27c0-5.5,4.5-10,10-10h43.515c5.5,0,10,4.5,10,10
+		v43.515C68.785,64.285,64.285,68.785,58.785,68.785z"/>
+	<g>
+		<path style="fill:#474748;" d="M26.95,43.538c-0.664,0.334-2.159,0.689-4.104,0.689c-5.528,0-8.376-3.441-8.376-7.996
+			c0-5.457,3.892-8.494,8.731-8.494c1.875,0,3.299,0.379,3.939,0.711l-0.736,2.871c-0.735-0.309-1.755-0.594-3.037-0.594
+			c-2.87,0-5.101,1.732-5.101,5.291c0,3.203,1.897,5.221,5.125,5.221c1.091,0,2.302-0.236,3.013-0.521L26.95,43.538z"/>
+		<path style="fill:#474748;" d="M29.319,27.997h3.63v12.955h6.359v3.037h-9.989V27.997z"/>
+		<path style="fill:#474748;" d="M45.07,27.997v15.992h-3.63V27.997H45.07z"/>
+		<path style="fill:#474748;" d="M48.2,28.212c1.115-0.191,2.682-0.334,4.889-0.334c2.229,0,3.819,0.428,4.888,1.281
+			c1.02,0.809,1.708,2.137,1.708,3.703c0,1.564-0.521,2.895-1.471,3.795c-1.234,1.164-3.062,1.686-5.196,1.686
+			c-0.475,0-0.902-0.023-1.234-0.072v5.719H48.2V28.212z M51.783,35.471c0.309,0.07,0.688,0.096,1.21,0.096
+			c1.922,0,3.108-0.975,3.108-2.611c0-1.471-1.021-2.348-2.823-2.348c-0.735,0-1.234,0.07-1.495,0.141V35.471z"/>
+	</g>
+</g>
+<g id="Layer_1">
+</g>
+</svg>
