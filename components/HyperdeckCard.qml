@@ -20,7 +20,7 @@ import QtQuick.Layouts
 import "HyperdeckCard"
 
 Rectangle {
-    property variant device
+    property QtObject device
 
     color: colours.decToHex(79, 79, 79)
 
