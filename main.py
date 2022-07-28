@@ -22,6 +22,7 @@ from PySide6.QtGui import QGuiApplication
 from PySide6.QtQml import QQmlApplicationEngine
 
 from colours import Colours
+from consts import setup_consts
 
 
 class App():
@@ -33,8 +34,9 @@ class App():
 
     def exec(self):
         root_context = self.engine.rootContext()
-        root_context.setContextProperty("deviceManager", self.device_manager)
         root_context.setContextProperty("colours", Colours(self.gui))
+        root_context.setContextProperty("deviceManager", self.device_manager)
+        setup_consts(root_context.setContextProperty)
         self.engine.quit.connect(self.gui.quit)
         self.engine.load(self.qmlpath)
         exit_code = self.gui.exec()
@@ -103,6 +105,10 @@ class DeviceManager(QObject):
     @Slot(result=list)
     def devices(self):
         return self._devices
+
+    @Slot(result=int)
+    def deviceCount(self):
+        return len(self._devices)
 
 
 if __name__ == "__main__":

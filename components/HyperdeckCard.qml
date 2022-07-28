@@ -19,82 +19,93 @@ import QtQuick.Layouts
 
 import "HyperdeckCard"
 
-Rectangle {
+GridLayout {
     property QtObject device
 
-    color: colours.decToHex(79, 79, 79)
+    columns: 1
+    rows: 1
 
-    GridLayout {
-        anchors.fill: parent
-        anchors.margins: 5
-        columns: 1
-        rows: 2
-        columnSpacing: 0
-        rowSpacing: 0
+    Rectangle {
+        Layout.fillHeight: true
+        Layout.fillWidth: true
+        Layout.maximumWidth: MAX_HYPERDECK_CARD_WIDTH
+        Layout.maximumHeight: MAX_HYPERDECK_CARD_HEIGHT
+        color: colours.decToHex(79, 79, 79)
 
         GridLayout {
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-            columns: 2
-            rows: 1
+            anchors.fill: parent
+            anchors.margins: 5
+            columns: 1
+            rows: 2
             columnSpacing: 0
             rowSpacing: 0
 
             GridLayout {
                 Layout.fillHeight: true
                 Layout.fillWidth: true
-                columns: 1
-                rows: 2
+                columns: 2
+                rows: 1
                 columnSpacing: 0
                 rowSpacing: 0
 
-                Title {
-                    Layout.bottomMargin: 15
+                GridLayout {
+                    Layout.alignment: Qt.AlignTop
                     Layout.fillWidth: true
-                    Layout.maximumHeight: 60
-                    Layout.minimumHeight: 60
-                    title: device != null ? device.title() : ""
+                    columns: 1
+                    rows: 2
+                    columnSpacing: 0
+                    rowSpacing: 0
+
+                    Title {
+                        Layout.bottomMargin: 15
+                        Layout.fillWidth: true
+                        Layout.maximumHeight: 60
+                        Layout.minimumHeight: 60
+                        title: device != null ? device.title() : ""
+                    }
+
+                    TimerDisplay {
+                        Layout.fillWidth: true
+                        Layout.fillHeight: true
+                        Layout.maximumHeight: 100
+                        name: "REMAINING TIME"
+                    }
+
+                    TimerDisplay {
+                        Layout.fillWidth: true
+                        Layout.fillHeight: true
+                        Layout.maximumHeight: 100
+                        name: "TIME ELAPSED"
+                    }
                 }
 
-                TimerDisplay {
-                    Layout.fillWidth: true
+                GridLayout {
                     Layout.fillHeight: true
-                    name: "REMAINING TIME"
-                }
+                    Layout.fillWidth: true
+                    columns: 1
+                    rows: 2
+                    columnSpacing: 0
+                    rowSpacing: 0
 
-                TimerDisplay {
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
-                    name: "TIME ELAPSED"
+                    Connection {
+                        Layout.fillWidth: true
+                        Layout.maximumHeight: 60
+                        Layout.minimumHeight: 60
+                    }
+
+                    ClipList {
+                        Layout.fillHeight: true
+                        Layout.fillWidth: true
+                    }
                 }
             }
 
-            GridLayout {
+            Controls {
                 Layout.fillHeight: true
                 Layout.fillWidth: true
-                columns: 1
-                rows: 2
-                columnSpacing: 0
-                rowSpacing: 0
-
-                Connection {
-                    Layout.fillWidth: true
-                    Layout.maximumHeight: 60
-                    Layout.minimumHeight: 60
-                }
-
-                ClipList {
-                    Layout.fillHeight: true
-                    Layout.fillWidth: true
-                }
+                Layout.maximumHeight: 80
+                Layout.minimumHeight: 80
             }
-        }
-
-        Controls {
-            Layout.fillHeight: true
-            Layout.fillWidth: true
-            Layout.maximumHeight: 80
-            Layout.minimumHeight: 80
         }
     }
 }
